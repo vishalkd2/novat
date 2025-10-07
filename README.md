@@ -1,16 +1,34 @@
-# novat
+# 📱 Flutter Post Reader App
 
-A new Flutter project.
+A simple Flutter application that fetches and displays a list of posts from a free public API.  
+It uses GetX for state management and SharedPreferences for local data storage.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- Fetches posts from a public REST API
+- Displays posts in card format with a yellow background
+- Marks posts as "read" on click, changing the background to white
+- Stores read state locally using SharedPreferences
+- Read/unread status persists even after app restarts
+- Clean UI with smooth navigation using GetX
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Tech Stack
+
+- **Flutter**
+- **GetX** – state management & navigation
+- **HTTP** – for API calls
+- **SharedPreferences** – for local storage
+- **Dart**
+
+---
+
+## 🔗 API Used
+
+- Posts API: `https://jsonplaceholder.typicode.com/posts`
+
+---
+
